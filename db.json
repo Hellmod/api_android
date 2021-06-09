@@ -25,5 +25,46 @@
    "authenticate":
    {
       "jwt":"abcdefghijklmnoprstuwz"
-   }
+   },
+   "schedules":
+   [
+      {
+      "id_schedule":1,
+      "id_user":1,
+      "id_role":2,
+      "id_places":1,
+      "hour_from":"Jan 20, 2020, 12:00:00 AM",
+      "hour_to":"Jan 20, 2020, 10:00:00 AM",
+      "places":{
+         "id_places":1,
+         "description":"Skrzyżowanie Szlak z Warszawską",
+         "address_google":"https://goo.gl/maps/r9Jwb3D3b4Qe2CRG9"
+         }
+      },
+      {
+      "id_schedule":1,
+      "id_user":1,
+      "id_role":2,
+      "id_places":1,
+      "hour_from":"Jan 20, 2020, 13:00:00 AM",
+      "hour_to":"Jan 20, 2020, 11:00:00 AM",
+      "places":{
+         "id_places":1,
+         "description":"Skrzyżowanie Szlak z Warszawską",
+         "address_google":"https://goo.gl/maps/r9Jwb3D3b4Qe2CRG9"
+         }
+      },{
+      "id_schedule":1,
+      "id_user":1,
+      "id_role":2,
+      "id_places":1,
+      "hour_from":"Jan 20, 2020, 14:00:00 AM",
+      "hour_to":"Jan 20, 2020, 12:00:00 AM",
+      "places":{
+         "id_places":1,
+         "description":"Skrzyżowanie Szlak z Warszawską",
+         "address_google":"https://goo.gl/maps/r9Jwb3D3b4Qe2CRG9"
+         }
+      }
+   ]
 }
