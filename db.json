@@ -37,25 +37,25 @@
          "id_transaction":3,
          "amount":3000.0,
          "description":"Wypłata listopad",
-         "date":"Nov 1, 2020, 12:00:00 AM",
+         "date":"Nov 1, 2020, 12:00:00 AM"
       },
       {
          "id_transaction":4,
          "amount":-45.0,
          "description":"Pizza",
-         "date":"Nov 30, 2020, 6:37:00 AM",
+         "date":"Nov 30, 2020, 6:37:00 AM"
       },
       {
          "id_transaction":7,
          "amount":-15.0,
          "description":"Obiad",
-         "date":"Nov 9, 2020, 12:00:00 AM",
+         "date":"Nov 9, 2020, 12:00:00 AM"
       },
       {
          "id_transaction":9,
          "amount":-80.0,
          "description":"Zakupy ",
-         "date":"Nov 15, 2020, 12:00:00 AM",
+         "date":"Nov 15, 2020, 12:00:00 AM"
       }
    ],
    "left":{
