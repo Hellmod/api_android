@@ -38,100 +38,24 @@
          "amount":3000.0,
          "description":"Wypłata listopad",
          "date":"Nov 1, 2020, 12:00:00 AM",
-         "user":{
-            "id":3,
-            "email":"123@gmail.com",
-            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
-            "name":"Ewa",
-            "lastName":"Miskiewicz",
-            "active":1,
-            "telephone":794286054,
-            "mark":0,
-            "is_fired":false,
-            "is_new":true,
-            "roles":[
-               {
-                  "id":2,
-                  "role":"ROLE_USER"
-               }
-            ],
-            "nrRoli":0
-         }
       },
       {
          "id_transaction":4,
          "amount":-45.0,
          "description":"Pizza",
          "date":"Nov 30, 2020, 6:37:00 AM",
-         "user":{
-            "id":3,
-            "email":"123@gmail.com",
-            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
-            "name":"Ewa",
-            "lastName":"Miskiewicz",
-            "active":1,
-            "telephone":794286054,
-            "mark":0,
-            "is_fired":false,
-            "is_new":true,
-            "roles":[
-               {
-                  "id":2,
-                  "role":"ROLE_USER"
-               }
-            ],
-            "nrRoli":0
-         }
       },
       {
          "id_transaction":7,
          "amount":-15.0,
          "description":"Obiad",
          "date":"Nov 9, 2020, 12:00:00 AM",
-         "user":{
-            "id":3,
-            "email":"123@gmail.com",
-            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
-            "name":"Ewa",
-            "lastName":"Miskiewicz",
-            "active":1,
-            "telephone":794286054,
-            "mark":0,
-            "is_fired":false,
-            "is_new":true,
-            "roles":[
-               {
-                  "id":2,
-                  "role":"ROLE_USER"
-               }
-            ],
-            "nrRoli":0
-         }
       },
       {
          "id_transaction":9,
          "amount":-80.0,
          "description":"Zakupy ",
          "date":"Nov 15, 2020, 12:00:00 AM",
-         "user":{
-            "id":3,
-            "email":"123@gmail.com",
-            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
-            "name":"Ewa",
-            "lastName":"Miskiewicz",
-            "active":1,
-            "telephone":794286054,
-            "mark":0,
-            "is_fired":false,
-            "is_new":true,
-            "roles":[
-               {
-                  "id":2,
-                  "role":"ROLE_USER"
-               }
-            ],
-            "nrRoli":0
-         }
       }
    ],
    "left":{
