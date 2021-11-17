@@ -1,69 +1,199 @@
 {
-   "hours":
-[
-   {
-      "id_hours":1,
-      "hour_from":"Feb 4, 2020, 12:07:00 AM",
-      "hour_to":"Feb 4, 2020, 3:10:00 PM"
-   },
-   {
-      "id_hours":3,
-      "hour_from":"Jan 2, 2020, 12:00:01 AM",
-      "hour_to":"Jan 4, 2020, 11:00:02 PM"
-   },
-   {
-      "id_hours":6,
-      "hour_from":"Jan 18, 2020, 12:00:00 AM",
-      "hour_to":"Jan 18, 2020, 12:00:09 AM"
-   },
-   {
-      "id_hours":7,
-      "hour_from":"Jan 18, 2020, 12:00:00 AM",
-      "hour_to":"Jan 18, 2010, 8:00:00 PM"
-   }
-],
-   "authenticate":
-   {
+   "hours":[
+      {
+         "id_hours":1,
+         "hour_from":"Feb 4, 2020, 12:07:00 AM",
+         "hour_to":"Feb 4, 2020, 3:10:00 PM"
+      },
+      {
+         "id_hours":3,
+         "hour_from":"Jan 2, 2020, 12:00:01 AM",
+         "hour_to":"Jan 4, 2020, 11:00:02 PM"
+      },
+      {
+         "id_hours":6,
+         "hour_from":"Jan 18, 2020, 12:00:00 AM",
+         "hour_to":"Jan 18, 2020, 12:00:09 AM"
+      },
+      {
+         "id_hours":7,
+         "hour_from":"Jan 18, 2020, 12:00:00 AM",
+         "hour_to":"Jan 18, 2010, 8:00:00 PM"
+      }
+   ],
+   "authenticate":{
       "jwt":"abcdefghijklmnoprstuwz"
    },
-   "schedules":
-   [
+   "schedules":[
       {
-      "id_schedule":1,
-      "id_user":1,
-      "id_role":2,
-      "id_places":1,
-      "hour_from":"Jan 20, 2020, 12:00:00 AM",
-      "hour_to":"Jan 20, 2020, 10:00:00 AM",
-      "places":{
+         "id_schedule":1,
+         "id_user":1,
+         "id_role":2,
          "id_places":1,
-         "description":"Skrzyżowanie Szlak z Warszawską",
-         "address_google":"https://goo.gl/maps/r9Jwb3D3b4Qe2CRG9"
+         "hour_from":"Jan 20, 2020, 12:00:00 AM",
+         "hour_to":"Jan 20, 2020, 10:00:00 AM",
+         "places":{
+            "id_places":1,
+            "description":"Skrzyżowanie Szlak z Warszawską",
+            "address_google":"https://goo.gl/maps/r9Jwb3D3b4Qe2CRG9"
          }
       },
       {
-      "id_schedule":1,
-      "id_user":1,
-      "id_role":2,
-      "id_places":1,
-      "hour_from":"Jan 20, 2020, 13:00:00 AM",
-      "hour_to":"Jan 20, 2020, 11:00:00 AM",
-      "places":{
+         "id_schedule":1,
+         "id_user":1,
+         "id_role":2,
          "id_places":1,
-         "description":"Park",
-         "address_google":"https://goo.gl/maps/sPisjipbkrhe64SAA"
+         "hour_from":"Jan 20, 2020, 13:00:00 AM",
+         "hour_to":"Jan 20, 2020, 11:00:00 AM",
+         "places":{
+            "id_places":1,
+            "description":"Park",
+            "address_google":"https://goo.gl/maps/sPisjipbkrhe64SAA"
          }
-      },{
-      "id_schedule":1,
-      "id_user":1,
-      "id_role":2,
-      "id_places":1,
-      "hour_from":"Jan 20, 2020, 14:00:00 AM",
-      "hour_to":"Jan 20, 2020, 12:00:00 AM",
-      "places":{
+      },
+      {
+         "id_schedule":1,
+         "id_user":1,
+         "id_role":2,
          "id_places":1,
-         "description":"Miasteczko",
-         "address_google":"https://goo.gl/maps/HXQZc82TDJk8ptiC6"
+         "hour_from":"Jan 20, 2020, 14:00:00 AM",
+         "hour_to":"Jan 20, 2020, 12:00:00 AM",
+         "places":{
+            "id_places":1,
+            "description":"Miasteczko",
+            "address_google":"https://goo.gl/maps/HXQZc82TDJk8ptiC6"
+         }
+      }
+   ],
+   "plan":[
+      {
+         "id_plan":1,
+         "id_user":3,
+         "amount":2500.0,
+         "date":"Aug 1, 2020, 12:00:00 AM",
+         "description":"Wrzesień"
+      },
+      {
+         "id_plan":2,
+         "id_user":3,
+         "amount":2000.0,
+         "date":"Oct 1, 2020, 12:00:00 AM",
+         "description":"Październik"
+      },
+      {
+         "id_plan":3,
+         "id_user":3,
+         "amount":2000.0,
+         "date":"Nov 1, 2020, 12:00:00 AM",
+         "description":"Listopad"
+      },
+      {
+         "id_plan":6,
+         "id_user":3,
+         "amount":200.0,
+         "date":"Dec 1, 2020, 12:00:00 AM",
+         "description":"Grudzień"
+      }
+   ],
+   "transaction":[
+      {
+         "id_transaction":3,
+         "amount":3000.0,
+         "description":"Wypłata listopad",
+         "date":"Nov 1, 2020, 12:00:00 AM",
+         "user":{
+            "id":3,
+            "email":"123@gmail.com",
+            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
+            "name":"Ewa",
+            "lastName":"Miskiewicz",
+            "active":1,
+            "telephone":794286054,
+            "mark":0,
+            "is_fired":false,
+            "is_new":true,
+            "roles":[
+               {
+                  "id":2,
+                  "role":"ROLE_USER"
+               }
+            ],
+            "nrRoli":0
+         }
+      },
+      {
+         "id_transaction":4,
+         "amount":-45.0,
+         "description":"Pizza",
+         "date":"Nov 30, 2020, 6:37:00 AM",
+         "user":{
+            "id":3,
+            "email":"123@gmail.com",
+            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
+            "name":"Ewa",
+            "lastName":"Miskiewicz",
+            "active":1,
+            "telephone":794286054,
+            "mark":0,
+            "is_fired":false,
+            "is_new":true,
+            "roles":[
+               {
+                  "id":2,
+                  "role":"ROLE_USER"
+               }
+            ],
+            "nrRoli":0
+         }
+      },
+      {
+         "id_transaction":7,
+         "amount":-15.0,
+         "description":"Obiad",
+         "date":"Nov 9, 2020, 12:00:00 AM",
+         "user":{
+            "id":3,
+            "email":"123@gmail.com",
+            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
+            "name":"Ewa",
+            "lastName":"Miskiewicz",
+            "active":1,
+            "telephone":794286054,
+            "mark":0,
+            "is_fired":false,
+            "is_new":true,
+            "roles":[
+               {
+                  "id":2,
+                  "role":"ROLE_USER"
+               }
+            ],
+            "nrRoli":0
+         }
+      },
+      {
+         "id_transaction":9,
+         "amount":-80.0,
+         "description":"Zakupy ",
+         "date":"Nov 15, 2020, 12:00:00 AM",
+         "user":{
+            "id":3,
+            "email":"123@gmail.com",
+            "password":"$2a$10$mCFc/hUUhJGNAmHC83JceeSQJgms8qVnYeA0QfMLxi5CpDsw0cMom",
+            "name":"Ewa",
+            "lastName":"Miskiewicz",
+            "active":1,
+            "telephone":794286054,
+            "mark":0,
+            "is_fired":false,
+            "is_new":true,
+            "roles":[
+               {
+                  "id":2,
+                  "role":"ROLE_USER"
+               }
+            ],
+            "nrRoli":0
          }
       }
    ]
