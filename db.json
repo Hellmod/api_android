@@ -1,70 +1,7 @@
 {
-   "hours":[
-      {
-         "id_hours":1,
-         "hour_from":"Feb 4, 2020, 12:07:00 AM",
-         "hour_to":"Feb 4, 2020, 3:10:00 PM"
-      },
-      {
-         "id_hours":3,
-         "hour_from":"Jan 2, 2020, 12:00:01 AM",
-         "hour_to":"Jan 4, 2020, 11:00:02 PM"
-      },
-      {
-         "id_hours":6,
-         "hour_from":"Jan 18, 2020, 12:00:00 AM",
-         "hour_to":"Jan 18, 2020, 12:00:09 AM"
-      },
-      {
-         "id_hours":7,
-         "hour_from":"Jan 18, 2020, 12:00:00 AM",
-         "hour_to":"Jan 18, 2010, 8:00:00 PM"
-      }
-   ],
    "authenticate":{
       "jwt":"abcdefghijklmnoprstuwz"
    },
-   "schedules":[
-      {
-         "id_schedule":1,
-         "id_user":1,
-         "id_role":2,
-         "id_places":1,
-         "hour_from":"Jan 20, 2020, 12:00:00 AM",
-         "hour_to":"Jan 20, 2020, 10:00:00 AM",
-         "places":{
-            "id_places":1,
-            "description":"Skrzyżowanie Szlak z Warszawską",
-            "address_google":"https://goo.gl/maps/r9Jwb3D3b4Qe2CRG9"
-         }
-      },
-      {
-         "id_schedule":1,
-         "id_user":1,
-         "id_role":2,
-         "id_places":1,
-         "hour_from":"Jan 20, 2020, 13:00:00 AM",
-         "hour_to":"Jan 20, 2020, 11:00:00 AM",
-         "places":{
-            "id_places":1,
-            "description":"Park",
-            "address_google":"https://goo.gl/maps/sPisjipbkrhe64SAA"
-         }
-      },
-      {
-         "id_schedule":1,
-         "id_user":1,
-         "id_role":2,
-         "id_places":1,
-         "hour_from":"Jan 20, 2020, 14:00:00 AM",
-         "hour_to":"Jan 20, 2020, 12:00:00 AM",
-         "places":{
-            "id_places":1,
-            "description":"Miasteczko",
-            "address_google":"https://goo.gl/maps/HXQZc82TDJk8ptiC6"
-         }
-      }
-   ],
    "plan":[
       {
          "id_plan":1,
